@@ -18,8 +18,6 @@ source ~/.bashrc
 type rbenv
 
 outrput => rbenv is a shell function from /home/marcus/.zshrc
-In my case, I'm using zsh shell
-continue...
 
 rbenv install 3.1.4 (you can choose another version using rbenv install -l to list options)
 rbenv global 3.1.4
@@ -32,4 +30,14 @@ gem install rails -v 6.1.4.1
 
 rbenv rehash
 rails -v
+``` 
+
+## Instalando o Node
+
+``` bash
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.37.2/install.sh | bash
+source ~/.bashrc
+nvm --version (para confirmar se instalou mesmo)
+
+nvm install --lts
 ``` 
