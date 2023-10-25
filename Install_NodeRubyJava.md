@@ -6,6 +6,13 @@
 
 ## TL;DR
 
+### Começando
+
+```bash
+sudo apt update
+sudo apt upgrade
+```
+
 ### Instalando o Ruby:
 
 ``` bash
@@ -41,3 +48,12 @@ nvm --version (para confirmar se instalou mesmo)
 
 nvm install --lts
 ``` 
+
+## Instalando o Java
+
+``` bash
+sudo apt install default-jre
+sudo apt install default-jdk
+java -version
+javac -version
+```
