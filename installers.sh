@@ -41,3 +41,10 @@ then
   java -version
   javac -version
 fi
+
+read -p "Rodar instalador do Postgres? [Y/n]" -n 1 -r install_psql
+if [[ $install_psql =~ ^[Yy]$ ]]
+then
+  sudo apt install postgresql postgresql-contrib
+  sudo systemctl start postgresql.service
+fi

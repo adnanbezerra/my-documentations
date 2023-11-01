@@ -61,3 +61,10 @@ sudo apt install default-jdk
 java -version
 javac -version
 ```
+
+## Instalando o Postgres
+
+``` bash
+sudo apt install postgresql postgresql-contrib
+sudo systemctl start postgresql.service
+```
