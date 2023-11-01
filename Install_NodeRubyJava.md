@@ -10,7 +10,7 @@
 
 Agora que eu criei um script que faz isso tudo, basta baixar ele, dar permissão de execução e meter bronca.
 
-Note que, sim, ele é LENTO para rodar porque algumas coisas são PESADAS. Tenha PACIÊNCIA. Mais tarde vou fazer algum método dele só seguir com confirmação do usuário.
+Note que, sim, ele é LENTO para rodar porque algumas coisas são PESADAS. Tenha PACIÊNCIA. Ele roda primeiro um update e upgrade automaticamente, mas, depois, pede a sua confirmação de se você quer ou não instalar cada etapa do script. Muito lindo.
 
 ```bash
 sudo apt update
