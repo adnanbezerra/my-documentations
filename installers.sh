@@ -1,7 +1,8 @@
-sudo apt update
-sudo apt upgrade
+# sudo apt update
+# sudo apt upgrade
 
 read -p "Rodar instalador do Ruby? [Y/n]" -n 1 -r install_ruby
+bash -c ""
 if [[ $install_ruby =~ ^[Yy]$ ]]
 then
   echo "Instalador do Ruby"
@@ -22,6 +23,7 @@ then
 fi
 
 read -p "Rodar instalador do Node? [Y/n]" -n 1 -r install_node
+echo -c ""
 if [[ $install_node =~ ^[Yy]$ ]]
 then
   echo "Instalador do Node"
@@ -33,6 +35,7 @@ then
 fi
 
 read -p "Rodar instalador do Java? [Y/n]" -n 1 -r install_java
+echo -c ""
 if [[ $install_java =~ ^[Yy]$ ]]
 then
   echo "Instalador do java"
@@ -43,6 +46,7 @@ then
 fi
 
 read -p "Rodar instalador do Postgres? [Y/n]" -n 1 -r install_psql
+echo -c ""
 if [[ $install_psql =~ ^[Yy]$ ]]
 then
   sudo apt install postgresql postgresql-contrib
